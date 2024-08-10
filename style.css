@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #232830;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    padding: 50px 100px;
+    color: #F0F0F0;
+}
+
+header{
+    width: 100%;
+}
+
+#cabecalho{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#corpoCabecalho{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#corpoCabecalho > *{
+    margin: 15px 0;
+}
+
+#corpoCabecalho h2{
+    font-size: 45px;
+    color: #FFCA70;
+}
+
+#corpoCabecalho h2{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 65px;
+}
+
+#corpoCabecalho p{
+    font-size: 20px;
+}
+
+#corpoCabecalho p{
+    font-weight: 400;
+}
+
+#cabecalho ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+#cabecalho ul li{
+    margin-left: 20px;
+}
+
+#corpoCabecalho img{
+    width: 150px;
+    max-height: auto;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#bodyArtigos{
+    display: flex;
+}
+
+.artigo{
+    height: 250px;
+    width: 200px;
+    color: #232830;
+    background-color: #F0F0F0;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 25px;
+}
+
+.artigo div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.artigo img{
+    width: 100%;
+    max-height: auto;
+    margin-bottom: 5px;
+}
+
+.artigo h3{
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.artigo p{
+    font-size: 15px;
+}
+
+.dataEtechs p, ul{
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+#faleConosco{
+    padding: 5px;
+    width: 25%;
+    border: 2px solid #F0F0F0;
+    border-radius: 5%;
+    margin-bottom: 5px;
+}
+
+#faleConoscoForm{
+    display: flex;
+    flex-direction: column;
+}
+
+#faleConoscoForm >*{
+    margin: 2px 0px;
+}
+
+#faleConoscoForm textarea{
+    resize: none;
+    margin-bottom: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 5px;
+}
+
+footer p{
+    font-weight: 900;
+}
+
+footer img{
+    height: 55px;
+}
